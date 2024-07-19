@@ -1,10 +1,11 @@
 const config = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyC_gORW4UoftGnhc8F0EjuRilBlpIWCB0Y",
+  authDomain: "friendlyeats-1ba67.firebaseapp.com",
+  projectId: "friendlyeats-1ba67",
+  storageBucket: "friendlyeats-1ba67.appspot.com",
+  messagingSenderId: "200174970234",
+  appId: "1:200174970234:web:56768aa1e82975821862c3",
+  measurementId: "G-LFWG5Y33Z0"
 };
 
 // When deployed, there are quotes that need to be stripped
