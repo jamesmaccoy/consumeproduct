@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "friendlyeats-1ba67"
-  }
+    "default": "friendlyeats-1ba67",
+    "consumeproduct": "friendlyeats-1ba67"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

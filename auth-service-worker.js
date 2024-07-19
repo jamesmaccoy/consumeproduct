@@ -38,14 +38,12 @@ async function fetchWithFirebaseHeaders(request) {
   const newRequest = new Request(request, { headers });
   return await fetch(newRequest);
 }
-
+// TODO: get user token
 async function getAuthIdToken(auth) {
   await auth.authStateReady();
   if (!auth.currentUser) return;
   return await getIdToken(auth.currentUser);
 }
 
-// TODO: get user token
-async function getAuthIdToken(auth) {
-  throw new Error('not implemented');
-}
+
+
